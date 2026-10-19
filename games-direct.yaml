@@ -1,0 +1,34 @@
+payload:
+  # AstrumPlay
+  - PROCESS-NAME-REGEX,(?i)^AstrumPlay
+
+  # Battle.net
+  - PROCESS-NAME-REGEX,(?i)^Battle\.net
+  - PROCESS-NAME,Agent.exe
+  - PROCESS-NAME,BlizzardBrowser.exe
+
+  # Escape from Tarkov
+  - PROCESS-NAME,BsgLauncher.exe
+  - PROCESS-NAME-REGEX,(?i)^EscapeFromTarkov
+
+  # HoYoverse
+  - PROCESS-NAME,BH3.exe
+  - PROCESS-NAME,GenshinImpact.exe
+  - PROCESS-NAME,StarRail.exe
+  - PROCESS-NAME,ZenlessZoneZero.exe
+  - PROCESS-NAME,ZFGameBrowser.exe
+
+  # Overwatch
+  - PROCESS-NAME,Overwatch.exe
+
+  # Path of Exile
+  - PROCESS-NAME-REGEX,(?i)^PathOfExile
+
+  # Steam
+  - PROCESS-NAME-REGEX,(?i)^steam.*\.exe$
+
+  # War Thunder
+  - PROCESS-NAME,aces.exe
+
+  # World of Warcraft
+  - PROCESS-NAME-REGEX,(?i)^Wow(Classic|T|B)?(-64)?\.exe$
