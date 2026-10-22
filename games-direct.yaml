@@ -1,15 +1,15 @@
 payload:
   # AstrumPlay
-  - PROCESS-NAME-REGEX,(?i)^AstrumPlay
+  - PROCESS-NAME-WILDCARD,AstrumPlay*
 
   # Battle.net
-  - PROCESS-NAME-REGEX,(?i)^Battle\.net
+  - PROCESS-NAME-WILDCARD,Battle.net*
   - PROCESS-NAME,Agent.exe
   - PROCESS-NAME,BlizzardBrowser.exe
 
   # Escape from Tarkov
   - PROCESS-NAME,BsgLauncher.exe
-  - PROCESS-NAME-REGEX,(?i)^EscapeFromTarkov
+  - PROCESS-NAME-WILDCARD,EscapeFromTarkov*
 
   # HoYoverse
   - PROCESS-NAME,BH3.exe
@@ -22,13 +22,16 @@ payload:
   - PROCESS-NAME,Overwatch.exe
 
   # Path of Exile
-  - PROCESS-NAME-REGEX,(?i)^PathOfExile
+  - PROCESS-NAME-WILDCARD,PathOfExile*
 
   # Steam
-  - PROCESS-NAME-REGEX,(?i)^steam.*\.exe$
+  - PROCESS-NAME-WILDCARD,steam*.exe
 
   # War Thunder
   - PROCESS-NAME,aces.exe
 
   # World of Warcraft
   - PROCESS-NAME-REGEX,(?i)^Wow(Classic|T|B)?(-64)?\.exe$
+
+  # Diablo 4
+  - PROCESS-NAME,Diablo IV.exe
